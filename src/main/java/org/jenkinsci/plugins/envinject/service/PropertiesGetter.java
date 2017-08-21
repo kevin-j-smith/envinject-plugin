@@ -10,6 +10,8 @@ import javax.annotation.Nullable;
  */
 public class PropertiesGetter implements Serializable {
 
+    private static final long serialVersionUID = 20170821001L;
+
     @Nullable
     public String getPropertiesContentFromMapObject(@CheckForNull Map<String, String> propertiesContent) {
 

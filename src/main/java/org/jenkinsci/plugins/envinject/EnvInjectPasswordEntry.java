@@ -12,6 +12,8 @@ import javax.annotation.Nonnull;
  */
 public class EnvInjectPasswordEntry implements Serializable {
 
+    private static final long serialVersionUID = 20170821001L;
+
     @CheckForNull 
     private String name;
 

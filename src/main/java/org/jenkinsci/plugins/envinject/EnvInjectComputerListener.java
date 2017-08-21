@@ -33,6 +33,7 @@ import jenkins.model.Jenkins;
 @Extension
 public class EnvInjectComputerListener extends ComputerListener implements Serializable {
 
+    private static final long serialVersionUID = 20170821001L;
 
     private EnvVars getNewMasterEnvironmentVariables(@Nonnull Computer c, 
             @Nonnull FilePath nodePath, @Nonnull TaskListener listener) throws EnvInjectException, IOException, InterruptedException {

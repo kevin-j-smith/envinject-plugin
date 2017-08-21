@@ -30,6 +30,8 @@ import javax.annotation.Nonnull;
  */
 public class EnvInjectPasswordsMasker implements Serializable {
 
+    private static final long serialVersionUID = 20170821001L;
+
     /**
      * @deprecated Use {@link #maskPasswordParametersIfAny(hudson.model.Run, java.util.Map, org.jenkinsci.lib.envinject.EnvInjectLogger)} 
      */

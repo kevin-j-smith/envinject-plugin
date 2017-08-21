@@ -21,6 +21,8 @@ import javax.annotation.Nonnull;
 @ExportedBean(defaultVisibility = 99)
 public class EnvInjectVarList implements Serializable {
 
+    private static final long serialVersionUID = 20170821001L;
+
     @Nonnull
     private final Map<String, String> envVars = new TreeMap<String, String>();
     

@@ -42,6 +42,8 @@ import org.jenkinsci.plugins.envinject.util.EnvInjectExceptionFormatter;
  */
 public class EnvInjectEnvVars implements Serializable {
 
+    private static final long serialVersionUID = 20170821001L;
+
     EnvInjectLogger logger;
 
     public EnvInjectEnvVars(@Nonnull EnvInjectLogger logger) {

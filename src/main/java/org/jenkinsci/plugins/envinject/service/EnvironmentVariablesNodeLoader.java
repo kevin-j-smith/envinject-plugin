@@ -26,6 +26,8 @@ import jenkins.model.Jenkins;
  */
 public class EnvironmentVariablesNodeLoader implements Serializable {
 
+    private static final long serialVersionUID = 20170821001L;
+
     @Deprecated
     public EnvironmentVariablesNodeLoader() {
     }

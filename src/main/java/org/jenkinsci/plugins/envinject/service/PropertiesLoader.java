@@ -19,6 +19,8 @@ import javax.annotation.Nonnull;
  */
 public class PropertiesLoader implements Serializable {
 
+    private static final long serialVersionUID = 20170821001L;
+
     /**
      * Get environment variables from a properties file path
      *

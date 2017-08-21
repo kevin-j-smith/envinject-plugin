@@ -22,6 +22,8 @@ import org.jenkinsci.plugins.envinject.util.RunHelper;
  */
 public class EnvInjectActionSetter implements Serializable {
 
+    private static final long serialVersionUID = 20170821001L;
+
     @CheckForNull
     private FilePath rootPath;
 

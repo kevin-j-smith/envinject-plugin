@@ -16,6 +16,8 @@ import jenkins.model.Jenkins;
  */
 public abstract class EnvInjectJobPropertyContributor implements ExtensionPoint, Describable<EnvInjectJobPropertyContributor>, Serializable {
 
+    private static final long serialVersionUID = 20170821001L;
+
     /**
      * Call it in order to fill in fields of the type
      */

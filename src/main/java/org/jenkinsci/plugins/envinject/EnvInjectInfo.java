@@ -19,6 +19,8 @@ import javax.annotation.Nullable;
  */
 public class EnvInjectInfo implements Serializable {
 
+    private static final long serialVersionUID = 20170821001L;
+
     //TODO: Should be final, but binary compatibility...
     protected @CheckForNull String propertiesFilePath;
     protected @CheckForNull String propertiesContent;

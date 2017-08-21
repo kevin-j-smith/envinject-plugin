@@ -35,6 +35,8 @@ import org.kohsuke.stapler.StaplerRequest;
  */
 public class EnvInjectBuildWrapper extends BuildWrapper implements Serializable {
 
+    private static final long serialVersionUID = 20170821001L;
+
     @Nonnull
     private EnvInjectJobPropertyInfo info;
     

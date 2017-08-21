@@ -27,6 +27,8 @@ import org.jenkinsci.plugins.envinject.util.RunHelper;
  */
 public class EnvInjectBuilder extends Builder implements Serializable {
 
+    private static final long serialVersionUID = 20170821001L;
+
     @Nonnull 
     private EnvInjectInfo info;
 

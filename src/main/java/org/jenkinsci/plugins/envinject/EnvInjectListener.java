@@ -30,6 +30,8 @@ import org.jenkinsci.plugins.envinject.util.RunHelper;
 @Extension
 public class EnvInjectListener extends RunListener<Run> implements Serializable {
 
+    private static final long serialVersionUID = 20170821001L;
+
     @Override
     public Environment setUpEnvironment(@Nonnull AbstractBuild build, @Nonnull Launcher launcher, 
             @Nonnull BuildListener listener) throws IOException, InterruptedException {
